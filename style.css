@@ -1,0 +1,143 @@
+body {
+    background-color: #024371;
+    font-family: Arial;
+}
+
+header {
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.875rem;
+    background-color: #136299;
+}
+
+.img_header {
+    width: 5rem;
+    padding-right: 1rem;
+}
+
+.titulo_pagina {
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.img_ilustracao {
+    position: relative;
+    left: 40px;
+}
+
+.conteudo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: .9375rem 3.125rem 3.125rem .9375rem;
+    width: 50rem;
+}
+
+.icon_git {
+    width: 2.5rem;
+    position: absolute;
+    right: 1.5625rem;
+    top: 1.25rem;
+}
+
+/*INPUTS*/
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1.3rem;
+}
+
+.input_n:focus {
+    outline-color: rgba(255, 255, 255, 0);
+}
+
+.input_n {
+    border: 0.1rem solid #ffffff;
+    background: transparent;
+    border-radius: 20px 5px 20px 20px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.stmbol_x {
+    padding: 1rem 0;
+}
+
+.div_soma {
+    display: flex;
+    justify-content: center;
+    margin-right: 1.3rem;
+}
+
+.botaoSomar {
+    background-image: url(imgs/igual.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.875rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem .9375rem;
+    color: transparent;
+}
+
+.div_result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultado {
+    align-items: center;
+    border: 0.1rem solid #ffffff;
+    border-radius: 20px 5px 20px 20px;
+    font-size: 2rem;
+    height: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    width: 40%;
+    margin: 0 1rem;
+}
+
+.img_calc {
+    width: 3rem;
+}
+
+#botaoApagar {
+    border-radius: 20px;
+    background-color: transparent;
+    border: 0.1rem solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    width: 4.5rem;
+    height: 2rem;
+}
+
+/*FIM INPUTS*/
+
+.img_ondas {
+    margin-top: 1.55rem;
+    width: 100%;
+}

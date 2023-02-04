@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="imgs/img_header.png" alt="" class="img_header">
+        <h1 class="titulo_pagina">CalcFácil</h1>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <img src="imgs/ilustracao.png" alt="" class="img_ilustracao">
+
+            <div class="conteudo">
+
+                <a href="https://github.com/CaioColli" target="_blank"><img src="imgs/git.svg" alt="" class="icon_git"></a>
+
+                <div class="inputs">
+                    <input type="Number" name="number1" id="number1" class="input_n">
+
+                    <img src="imgs/x.png" alt="" class="stmbol_x">
+
+                    <input type="Number" name="number2" id="number2" class="input_n">
+                </div>
+
+                <div class="div_soma">
+                    <input type="button" value="=" onclick="somar()" class="botaoSomar">
+                </div>
+
+                <div class="div_result">
+                    <img src="imgs/calc.png" alt="" class="img_calc">
+                    <div id="resultado"></div>
+                    <input type="button" value="Reset" id="botaoApagar">
+                </div>
+            </div>
+        </div>
+
+        <img src="imgs/ondas.png" alt="" class="img_ondas">
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
